@@ -9,6 +9,10 @@ body {
 
 }
 
+/* :root {
+  --fontcolor: white;
+} */
+
 .main{
   display: flex;
   align-items: center;
@@ -16,6 +20,8 @@ body {
   margin-top: 100px;
 }
 .info{
+  --fontcolor: rgb(240, 13, 13);
+  --background:rgb(242, 167, 157);
   background-color: darkgray;
   width: 500px;
 }
@@ -23,6 +29,8 @@ body {
 .darktheme{
   background-color: rgb(108, 78, 197);
   width: 500px;
+  --fontcolor: rgb(11, 245, 34);
+  --background:rgb(194, 235, 201);
 
 }
 
@@ -35,15 +43,19 @@ body {
     font-weight: 900;
     padding-top: 16px;
     position: relative;
+    color:var(--fontcolor);
 }
 .name{
   padding: 16px 29px;
   font-size: 19px;
   width: 150px;
+  color:var(--fontcolor);
 }
 .inputbox{
   padding: 8px;
   font-size: 19px;
+  color:var(--fontcolor);
+  background-color: var(--background);
 }
 .btndiv{
   display: flex;
@@ -54,6 +66,8 @@ body {
   padding: 10px 66px;
   font-size: 19px;
   cursor: pointer;
+  color:var(--fontcolor);
+  background-color: var(--background);
 }
 
 .details{
@@ -67,4 +81,5 @@ body {
     right: 6px;
     font-size: small;
     cursor: pointer;
+    color:var(--fontcolor);
 }
