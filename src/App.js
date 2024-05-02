@@ -1,12 +1,22 @@
+import { useState } from 'react';
 import './App.css';
 import Info from './info';
 
 function App() {
+  const [theme,setTheme]=useState(false);
   return (
     <div className='main'>
-      <div className='info'>
+      <div className={`${theme ?"darktheme":"info"} `}>
         <div className='title'>Title
-        <span>theme</span></div>
+        <span className='theme' onClick={()=>{
+          if(theme){
+            setTheme(false);
+          }
+          if(!theme){
+            setTheme(true);
+          }
+        }} >theme</span>
+        </div>
 
         <Info value="First Name"></Info>
         <Info value="Last Name"></Info>

@@ -19,6 +19,13 @@ body {
   background-color: darkgray;
   width: 500px;
 }
+
+.darktheme{
+  background-color: rgb(108, 78, 197);
+  width: 500px;
+
+}
+
 .title{
   font-size: 32px;
     display: flex;
@@ -27,6 +34,7 @@ body {
     font-weight: 400px;
     font-weight: 900;
     padding-top: 16px;
+    position: relative;
 }
 .name{
   padding: 16px 29px;
@@ -52,4 +60,11 @@ body {
   display: flex;
     margin: 32px 0px;
     justify-content: center;
+}
+
+.theme{
+  position: absolute;
+    right: 6px;
+    font-size: small;
+    cursor: pointer;
 }
