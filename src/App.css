@@ -4,82 +4,79 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-    
-    color: rgba(0, 0, 0, 0.87);
-
+  color: rgba(0, 0, 0, 0.87);
 }
 
 /* :root {
   --fontcolor: white;
 } */
 
-.main{
+.main {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 100px;
 }
-.info{
+.info {
   --fontcolor: rgb(240, 13, 13);
-  --background:rgb(242, 167, 157);
+  --background: rgb(242, 167, 157);
   background-color: darkgray;
   width: 500px;
 }
 
-.darktheme{
+.darktheme {
   background-color: rgb(108, 78, 197);
   width: 500px;
   --fontcolor: rgb(11, 245, 34);
-  --background:rgb(194, 235, 201);
-
+  --background: rgb(194, 235, 201);
 }
 
-.title{
+.title {
   font-size: 32px;
-    display: flex;
-    justify-content: center;
-    border-bottom: 2px solid #803838;
-    font-weight: 400px;
-    font-weight: 900;
-    padding-top: 16px;
-    position: relative;
-    color:var(--fontcolor);
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #803838;
+  font-weight: 400px;
+  font-weight: 900;
+  padding-top: 16px;
+  position: relative;
+  color: var(--fontcolor);
 }
-.name{
+.name {
   padding: 16px 29px;
   font-size: 19px;
   width: 150px;
-  color:var(--fontcolor);
+  color: var(--fontcolor);
 }
-.inputbox{
+.inputbox {
   padding: 8px;
   font-size: 19px;
-  color:var(--fontcolor);
+  color: var(--fontcolor);
   background-color: var(--background);
 }
-.btndiv{
+.btndiv {
   display: flex;
   justify-content: center;
   margin: 12px 0px;
 }
-.btn{
+.btn {
   padding: 10px 66px;
   font-size: 19px;
   cursor: pointer;
-  color:var(--fontcolor);
+  color: var(--fontcolor);
   background-color: var(--background);
 }
 
-.details{
+.details {
   display: flex;
-    margin: 32px 0px;
-    justify-content: center;
+  margin: 32px 0px;
+  justify-content: center;
 }
 
-.theme{
+.theme {
   position: absolute;
-    right: 6px;
-    font-size: small;
-    cursor: pointer;
-    color:var(--fontcolor);
+  right: 6px;
+  font-size: small;
+  cursor: pointer;
+  color: var(--fontcolor);
 }
